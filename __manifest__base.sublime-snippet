@@ -1,29 +1,23 @@
 <snippet>
     <content><![CDATA[
 # -*- coding: utf-8 -*-
-# Copyright(c): 2018 Freshoo (<www.freshoo.cn>)
+# Copyright(c): 2019 Freshoo (<www.freshoo.cn>)
 
 {
     'name': '${1:Human readable name}',
-    'summary': '${2:${1}} Module Project',
     'version': '1.0',
-
+    'summary': '${2:${1}} Module Project',
     'description': """
 ${3:${1}} Module Project.
 ==============================================
-
 ${4}
     """,
-
     'author': '${5:$TM_FULLNAME}',
     'maintainer': '${5}',
     'contributors': ['${6:${5} <${5}@gmail.com>}'],
-
     'website': 'http://www.gitlab.com/${7:${5}}',
-
     'license': 'AGPL-3',
     'category': 'Uncategorized',
-
     'depends': [
         'base'
     ],
@@ -35,18 +29,17 @@ ${4}
     ],
     'demo': [
     ],
-    'js': [
-    ],
-    'css': [
-    ],
     'qweb': [
+        # 'static/src/xml/*.xml',
     ],
     'images': [
+        # 'static/description/banner.png'
     ],
     'test': [
     ],
-
     'installable': True
+    'auto_install': False,
+    'application': False,
 }${0}
 ]]></content>
     <tabTrigger>__manifest__</tabTrigger>

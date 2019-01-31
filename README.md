@@ -1,4 +1,4 @@
-Several snippets to be used with Sublime 3 in Odoo v8,v9,v10,v11 developments
+Several snippets to be used with Sublime 3 in Odoo v8,v9,v10,v11,v12 developments
 
 ## Installation
 
